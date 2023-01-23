@@ -42,7 +42,7 @@ window.onload = () => {
  */
 function vyplnFormular(index) {
 
-    const selectTypPojisteni = document.querySelector("#typPojisteni");
+    const selectTypPojisteni = document.querySelector("#typ-pojisteni");
     for (let i = 0; i < pojistovna._typyPojisteni.length; i++) {
         const optionTypPojisteni = document.createElement("option");
         optionTypPojisteni.innerHTML = pojistovna._typyPojisteni[i];
@@ -58,15 +58,15 @@ function vyplnFormular(index) {
 
         for (let i = 0; i < pojistovna._typyPojisteni.length; i++) {
             if (pojistovna._sjednanaPojisteni[sjednanePojisteniID]._typPojisteni == pojistovna._typyPojisteni[i]) {
-                document.querySelector("#typPojisteni").value = `${i}`;
+                document.querySelector("#typ-pojisteni").value = `${i}`;
             }
 
         }
 
         document.querySelector("#castka").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._castka}`;
-        document.querySelector("#predmetPojisteni").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._predmetPojisteni}`;
-        document.querySelector("#platnostOd").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._platnostOd}`;
-        document.querySelector("#platnostDo").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._platnostDo}`;
+        document.querySelector("#predmet-pojisteni").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._predmetPojisteni}`;
+        document.querySelector("#platnost-od").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._platnostOd}`;
+        document.querySelector("#platnost-do").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._platnostDo}`;
     }
 }
 
@@ -111,11 +111,11 @@ document.querySelector("#sjednani-pojisteni-form").addEventListener("submit", fu
 
         pojistovna.ulozSjednanaPojisteni();
         /*vynulovani formulare*/
-        document.querySelector("#typPojisteni").value = -1;
+        document.querySelector("#typ-pojisteni").value = -1;
         document.querySelector("#castka").value = "";
-        document.querySelector("#predmetPojisteni").value = "";
-        document.querySelector("#platnostOd").value = "2023-01-01";
-        document.querySelector("#platnostDo").value = "2024-12-31";
+        document.querySelector("#predmet-pojisteni").value = "";
+        document.querySelector("#platnost-od").value = "2023-01-01";
+        document.querySelector("#platnost-do").value = "2024-12-31";
 
     }
 

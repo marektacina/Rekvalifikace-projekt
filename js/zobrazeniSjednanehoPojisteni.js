@@ -31,8 +31,6 @@ window.onload = () => {
      * Nastavení pojištěnce tlačítku zpět
      */
     document.querySelector("#tlacitko-zpet").href += `#${pojistenecID}`;
-
-
 }
 
 /**
@@ -46,11 +44,11 @@ function vyplnFormular(index) {
 
     document.querySelector("#castka").type = "text";
 
-    document.querySelector("#inputTypPojisteni").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._typPojisteni}`;
+    document.querySelector("#typ-pojisteni").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._typPojisteni}`;
     document.querySelector("#castka").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._castka} Kč`;
-    document.querySelector("#predmetPojisteni").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._predmetPojisteni}`;
-    document.querySelector("#platnostOd").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._platnostOd}`;
-    document.querySelector("#platnostDo").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._platnostDo}`;
+    document.querySelector("#predmet-pojisteni").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._predmetPojisteni}`;
+    document.querySelector("#platnost-od").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._platnostOd}`;
+    document.querySelector("#platnost-do").value = `${pojistovna._sjednanaPojisteni[sjednanePojisteniID]._platnostDo}`;
 }
 
 
