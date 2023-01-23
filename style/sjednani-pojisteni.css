@@ -1,0 +1,59 @@
+#nadpis {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+#sjednani-pojisteni-form {
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vh 2vw;
+    background-color: #f3f3f3;
+    padding: 2vh 2vw;
+}
+
+#sjednani-pojisteni-form label {
+    font-weight: bold;
+}
+#sjednani-pojisteni-form input {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: none;
+}
+.center {
+    grid-column: 1/3;
+    text-align: center;
+}
+#sjednani-pojisteni-form input[type="submit"] {
+    background-color: #e0dfdf;
+    margin-top: 2vh;
+    border: none;
+    color: #505050;
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#sjednani-pojisteni-form label {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+#sjednani-pojisteni-form select {
+    padding: 5px 10px;
+    grid-column: 1/3;
+    font-size: 1rem;
+}
+
+#inputTypPojisteni {
+    padding: 5px 10px;
+    grid-column: 1/3;
+    font-size: 1rem;
+}
+
+.right {
+    text-align: right;
+    margin-top: 5vh;
+}

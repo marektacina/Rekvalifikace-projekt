@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="cs-cz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/hlavni.css">
+  <link rel="stylesheet" href="style/pojistenci.css">
+  <link rel="stylesheet" href="style/typPojisteni.css">
+  <link rel="shortcut icon" href="obr/ikona.ico">
+  <title>BeSafe</title>
+</head>
+<body>
+<div class="container">
+  <header id="hlavicka">
+    <div id="logo"><img src="obr/logo.png" alt=""></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="pojistenci.html">Pojištěnci</a></li>
+        <li class="active"><a href="pojisteni.html">Pojištění</a></li>
+        <li><a href="prihlaseni.html">Přihlášení</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article class="clanek">
+    <form id="typy-pojisteni">
+      <label for="typ-pojisteni">Zadej typ pojištění: </label>
+      <input id="typ-pojisteni" name="typPojisteni" type="text">
+      <input id="vloz" name="ulozit" type="submit" value="Vlož">
+    </form>
+
+    <div id="vypis-pojisteni">
+
+    </div>
+  </article>
+
+</div>
+<footer>
+  <p>&copy; Marek Tacina, 2023</p>
+</footer>
+
+
+<script src="js/Pojistovna.js"></script>
+<script src="js/PojistovnaAgent.js"></script>
+<script src="js/PojistovnaAdmin.js"></script>
+<script src="js/typPojisteni.js"></script>
+</body>
+</html>

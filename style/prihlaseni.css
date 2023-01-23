@@ -1,0 +1,16 @@
+
+#nastav-opravneni {
+    font-size: 1.2rem;
+}
+
+#nastav-opravneni input[type="submit"] {
+    background-color: #e0dfdf;
+    border: none;
+    color: #505050;
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}

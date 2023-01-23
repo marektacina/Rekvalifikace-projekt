@@ -1,0 +1,79 @@
+.center {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+table {
+    border-: 1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5vh auto;
+}
+
+thead {
+    font-weight: bold;
+    background-color: #dcdcdc;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    width: 33%;
+    font-size: 1.2rem;
+}
+
+.vypis {
+    margin-top: 10vh;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.bunka-edit {
+    text-align: center;
+}
+
+.tlacitko-smaz {
+    display: inline-block;
+    background-color: #dca599;
+    border: #444444;
+    color: #505050;
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2px;
+    width: 60px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.tlacitko-smaz:hover {
+    background-color: #e08678;
+}
+
+.tlacitko-edituj {
+    display: inline-block;
+    background-color: #dcc799;
+    border: #444444;
+    color: #505050;
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2px;
+    width: 60px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.tlacitko-edituj:hover {
+    background-color: #d3a866;
+}
+@media screen and (max-width: 575px) {
+    .bunka-edit {
+
+    }
+
+}
+
+

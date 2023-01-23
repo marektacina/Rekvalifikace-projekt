@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/hlavni.css">
+    <link rel="stylesheet" href="style/pojistenci.css">
+    <link rel="stylesheet" href="style/zobrazeniPojistence.css">
+    <link rel="shortcut icon" href="obr/ikona.ico">
+    <title>BeSafe</title>
+</head>
+<body>
+<div class="container">
+    <header id="hlavicka">
+        <div id="logo"><img src="obr/logo.png" alt=""></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="pojistenci.html">Pojištěnci</a></li>
+                <li><a href="pojisteni.html">Pojištění</a></li>
+                <li><a href="prihlaseni.html">Přihlášení</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="clanek">
+        <div id="levy">
+            <img src="obr/avatar.png" alt="avatar" id="avatar">
+        </div>
+
+        <div id="prostredni">
+            <p id="jmeno">Jméno a příjmení</p>
+            <p id="ulice" class="polozky">Ulice a ČP</p>
+            <p id="mesto" class="polozky">Město</p>
+            <p id="psc" class="polozky">PSČ</p>
+        </div>
+
+        <div id="pravy">
+            <p id="email" class="polozky">Email</p>
+            <p id="telefon" class="polozky">Telefon</p>
+        </div>
+    </div>
+    <div id="sjednana-pojisteni">
+    </div>
+
+
+
+    <div id="tlacitka" class="center">
+    </div>
+
+    <div class="right">
+        <a href="pojistenci.html" class="tlacitko">Zpět na výpis pojištěnců</a>
+    </div>
+
+</div>
+<footer>
+    <p>&copy; Marek Tacina, 2023</p>
+</footer>
+<script src="js/Pojistovna.js"></script>
+<script src="js/PojistovnaAgent.js"></script>
+<script src="js/PojistovnaAdmin.js"></script>
+<script src="js/zobrazeniPojistence.js"></script>
+</body>
+</html>

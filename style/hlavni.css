@@ -1,0 +1,94 @@
+* {
+    color: #505050;
+}
+
+.container {
+    margin: 5vh auto;
+    height: 85vh;
+    max-width: 800px;
+
+}
+
+/*Hlavicka*/
+
+#hlavicka {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#hlavicka nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+
+#hlavicka nav ul li a {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+nav ul a:hover, .active a {
+    border-bottom: 2px solid #FF7F27;
+}
+
+/*clanek*/
+.nadpis {
+    font-size: 1.6em;
+}
+.clanek {
+    margin-top: 10vh;
+}
+.clanek p {
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 575px) {
+    #hlavicka nav ul {
+        flex-direction: row;
+        gap: 5vw;
+    }
+}
+
+#zvyrazneny {
+    margin-top: 10vh;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*paticka*/
+footer {
+    text-align: center;
+}
+
+/*dokumenty pojistenci.html a novy-pojistenec.html*/
+
+
+.tlacitko {
+    background-color: #e0dfdf;
+    border: #444444;
+    color: #505050;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.tlacitko:hover {
+    background-color: #c7c7c7;
+}
+
+.tlacitko-novy {
+    background-color: #aecff8;
+}
+
+.tlacitko-novy:hover {
+    background-color: #99baf3;
+}

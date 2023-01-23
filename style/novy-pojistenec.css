@@ -1,0 +1,72 @@
+
+#novy-pojistenec-form {
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vh 2vw;
+    background-color: #f3f3f3;
+    padding: 2vh 2vw;
+}
+
+#novy-pojistenec-form input {
+    padding: 5px 10px;
+}
+
+#psc {
+    grid-column: 1;
+}
+
+#novy-pojistenec-form label {
+    gap: 0;
+}
+
+#novy-pojistenec-form p {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+    grid-row: 9;
+    grid-column: 2;
+}
+
+
+#novy-pojistenec-form input[type="submit"] {
+    background-color: #e0dfdf;
+    border: none;
+    color: #505050;
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+        background-color: #c7c7c7;
+}
+
+#jmeno #prijmeni{
+    margin-bottom: 2vh;
+}
+
+
+
+#prijmeni, #email, #adresa, #psc {
+    /*margin-bottom: 20px;*/
+}
+
+
+.svetly:hover {
+    border-bottom: none;
+}
+
+#byl-ulozen {
+    font-size: 0.8em;
+    color: white;
+    text-align: right;
+}
+
+.right {
+    text-align: right;
+}

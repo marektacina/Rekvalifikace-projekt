@@ -1,0 +1,68 @@
+#clanek {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2vh;
+}
+
+#clanek p {
+    margin: 1vh;
+}
+
+#levy {
+    text-align: right;
+}
+
+#prostredni {
+    grid-column: 2 / 4;
+}
+
+#pravy {
+    grid-column: 4 / 7;
+}
+
+#levy img {
+    border: 1px solid black;
+}
+
+#jmeno {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#nadpis-tabulky {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.pojisteni-v-tabulce {
+    color: blue;
+}
+
+.bunka-tlacitka {
+    text-align: center;
+}
+
+.tlacitko-smaz, .tlacitko-edituj {
+    width: 170px;
+    height: 20px;
+    padding: 7px;
+    margin-left: 1vw;
+}
+
+.tlacitko-smaz-pojisteni, .tlacitko-edituj-pojisteni {
+    width: 60px;
+}
+
+.tlacitko-pridat {
+    background-color: #aecff8;
+}
+
+.tlacitko-pridat:hover {
+    background-color: #99baf3;
+}
+
+.right {
+    margin-top: 3vh;
+    text-align: right;
+}
